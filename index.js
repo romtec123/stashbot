@@ -4,6 +4,7 @@ const dbot = new Discord.Client({ disableEveryone: true });
 const mineflayer = require('mineflayer');
 const request = require('request');
 const { chmodSync } = require("fs-extra");
+require('dotenv').config();
 
 console.log("Stashbot starting...");
 
