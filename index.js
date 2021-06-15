@@ -6,7 +6,7 @@ const request = require('request');
 const { chmodSync } = require("fs-extra");
 require('dotenv').config();
 
-console.log("Stashbot starting...");
+console.log("\nStashbot starting...");
 
 
 //Mineflayer bot setup
@@ -27,7 +27,7 @@ tokens.use(options, function(_err, _opts){
 
     function bind(bot){
 
-        console.log("Mineflayer starting...\n");
+        console.log("\nMineflayer starting...");
         bot.on('kicked', (reason, loggedIn) => console.log(`Bot was kicked: ${reason.text}`));
         bot.on('error', err => console.error(err));
 
@@ -44,7 +44,7 @@ tokens.use(options, function(_err, _opts){
 //Discord bot setup
 
 dbot.on("ready", async () => {
-    console.log(`Discord Bot starting up...\n`);
+    console.log(`\nDiscord Bot starting up...`);
     dbot.user.setActivity('Starting...', {type: 'PLAYING'})
 });
 
