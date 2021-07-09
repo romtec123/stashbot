@@ -1,0 +1,29 @@
+{
+  "name": "stashbot",
+  "version": "1.0.0",
+  "description": "stash bot",
+  "main": "index.js",
+  "dependencies": {
+    "@rob9315/mcproxy": "^0.1.1",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "fs-extra": "^10.0.0",
+    "mineflayer": "^3.7.0",
+    "prismarine-tokens-fixed": "^1.1.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romtec123/stashbot.git"
+  },
+  "author": "romtec123",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romtec123/stashbot/issues"
+  },
+  "homepage": "https://github.com/romtec123/stashbot#readme"
+}
